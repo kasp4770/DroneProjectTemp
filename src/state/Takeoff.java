@@ -1,4 +1,4 @@
-package State;
+package state;
 
 public class Takeoff extends State {
     private static Takeoff instance = new Takeoff();

@@ -1,6 +1,6 @@
-package Observer;
+package observer;
 
-import State.State;
+import state.State;
 
 import java.util.ArrayList;
 import java.util.List;

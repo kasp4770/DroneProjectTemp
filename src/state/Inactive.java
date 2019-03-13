@@ -1,4 +1,4 @@
-package State;
+package state;
 
 public class Inactive extends State {
     private static Inactive instance = new Inactive();
