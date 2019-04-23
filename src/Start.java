@@ -16,9 +16,9 @@ public class Start {
         Button btn = new Button();
 
         //observer objects
-        Subject subject = new Subject();
+        /*Subject subject = new Subject();
         SenderObserver senderObserver = new SenderObserver(subject);
-        RecieverObserver recieverObserver = new RecieverObserver(subject);
+        RecieverObserver recieverObserver = new RecieverObserver(subject);*/
 
 
         LoggerTest.init();
@@ -29,7 +29,7 @@ public class Start {
             System.out.print("Press 'Enter' to continue to the next state of the drone");
             is.read();
             btn.push();
-            subject.setState(btn.getCurrent());
+            //subject.setState(btn.getCurrent());
         }
     }
 }
