@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Subject {
-
+    /*
     private List<Observer> observers = new ArrayList<Observer>();
     private String state;
 
@@ -27,5 +27,5 @@ public class Subject {
         for (Observer observer : observers) {
             observer.update();
         }
-    }
+    }*/
 }
